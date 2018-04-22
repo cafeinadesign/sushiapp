@@ -17,18 +17,18 @@
   "TUTORIAL_SKIP_BUTTON": "Pular",
   "TUTORIAL_CONTINUE_BUTTON": "Continuar",
 
-  "TUTORIAL_SLIDE1_TITLE": "Bem-vindo ao Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "O <b>Ionic Super Starter</b> é um starter para Ionic completo, com diversos componentes e páginas prontas para ser utilizado como guia de melhores práticas.",
+  "TUTORIAL_SLIDE1_TITLE": "Cupons de desconto em restaurantes japoneses!",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "Venha com a gente economizar nos seus sushis favoritos!",
 
-  "TUTORIAL_SLIDE2_TITLE": "Como utilizar o Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Combine os tipos de páginas que você quer e remova aquelas que não precisa. No starter existem muitos casos de uso comuns de layouts e páginas como login, cadastro, abas e de tutorial.",
+  "TUTORIAL_SLIDE2_TITLE": "Como utilizar o SushiApp",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "Pegue cupons gratuitamente clicando no botão PEGAR CUPOM.",
 
-  "TUTORIAL_SLIDE3_TITLE": "Iniciando o projeto",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Precisa de ajuda? Dê uma olhada no README do Super Starter para um tutorial completo",
+  "TUTORIAL_SLIDE3_TITLE": "Resgate do cupom",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "Depois é só apresentar o cupom no restaurante para curtir seu desconto!",
 
-  "TUTORIAL_SLIDE4_TITLE": "Pronto para Usar?",
+  "TUTORIAL_SLIDE4_TITLE": "Pronto para Economizar?",
 
-  "WELCOME_INTRO": "O ponto de partida para seu próximo app feito no Ionic",
+  "WELCOME_INTRO": "Os cupons estão quase na sua mão 🍣",
 
   "SETTINGS_TITLE": "Configurações",
   "SETTINGS_OPTION1": "Opção 1",
