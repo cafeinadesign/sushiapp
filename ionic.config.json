@@ -1,0 +1,8 @@
+{
+  "name": "SushiApp",
+  "app_id": "8efb05f9",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
