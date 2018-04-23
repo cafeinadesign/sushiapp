@@ -10,6 +10,21 @@
 
   <form [formGroup]="form" *ngIf="settingsReady">
     <ion-list *ngIf="page == 'main'">
+      <ion-item [navPush]="subSettings" [navParams]="profileSettings">
+        <ion-avatar item-start>
+          <img src="{{profile.picture.data.url}}">
+        </ion-avatar>
+        <h2>{{profile.name}}</h2>
+        <h3>{{profile.email}}</h3>
+        <p>Editar perfil</p>
+      </ion-item>
+      <button ion-item>
+        <ion-icon name="pricetags" item-start></ion-icon>
+        Meus Cupons
+      </button>
+      <ion-list-header>
+        Configurações
+      </ion-list-header>
       <ion-item>
         <ion-label>{{ 'SETTINGS_OPTION1' | translate }}</ion-label>
         <ion-toggle formControlName="option1"></ion-toggle>
@@ -17,21 +32,21 @@
 
       <ion-item>
         <ion-label>{{ 'SETTINGS_OPTION2' | translate }}</ion-label>
-        <ion-input formControlName="option2"></ion-input>
+        <ion-toggle formControlName="option2"></ion-toggle>
       </ion-item>
 
-      <ion-item>
+      <!-- <ion-item>
         <ion-label>{{ 'SETTINGS_OPTION3' | translate }}</ion-label>
         <ion-select formControlName="option3">
           <ion-option value="1" checked="true">1</ion-option>
           <ion-option value="2">2</ion-option>
           <ion-option value="3">3</ion-option>
         </ion-select>
-      </ion-item>
+      </ion-item> -->
 
-      <button ion-item [navPush]="subSettings" [navParams]="profileSettings">
+      <!-- <button ion-item [navPush]="subSettings" [navParams]="profileSettings">
         {{ 'SETTINGS_PROFILE_BUTTON' | translate }}
-      </button>
+      </button> -->
     </ion-list>
 
     <ion-list *ngIf="page == 'profile'">

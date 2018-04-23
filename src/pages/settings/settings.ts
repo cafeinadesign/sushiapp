@@ -34,6 +34,20 @@ export class SettingsPage {
 
   subSettings: any = SettingsPage;
 
+  profile = {
+    "id": "910389009066810",
+    "name": "Thiago Bezerra",
+    "email": "thiagoprazeres@gmail.com",
+    "picture": {
+      "data": {
+        "height": 512,
+        "is_silhouette": false,
+        "url": "assets/img/thiago.jpg",
+        "width": 512
+      }
+    }
+  };
+
   constructor(public navCtrl: NavController,
     public settings: Settings,
     public formBuilder: FormBuilder,
