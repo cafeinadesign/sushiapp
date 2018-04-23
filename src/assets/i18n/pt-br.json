@@ -8,9 +8,9 @@
   "LOGIN": "Entrar",
   "SIGNUP": "Cadastre-se",
 
-  "TAB1_TITLE": "Itens",
-  "TAB2_TITLE": "Busca",
-  "TAB3_TITLE": "Configurações",
+  "TAB1_TITLE": "Cupom",
+  "TAB2_TITLE": "Restaurantes",
+  "TAB3_TITLE": "Perfil",
 
   "MAP_TITLE": "Mapa",
 
@@ -49,7 +49,7 @@
   "SIGNUP_ERROR": "Não foi possível criar sua conta. Verifique seus dados e tente novamente.",
   "SIGNUP_BUTTON": "Cadastre-se",
 
-  "LIST_MASTER_TITLE": "Itens",
+  "LIST_MASTER_TITLE": "Cupons",
 
   "ITEM_CREATE_TITLE": "Novo Item",
   "ITEM_CREATE_CHOOSE_IMAGE": "Adicionar Imagem",
