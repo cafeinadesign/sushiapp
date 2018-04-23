@@ -25,12 +25,12 @@
     <p>{{item.category}}<span *ngIf="item.food_styles">, {{item.food_styles}}</span></p>
   </ion-item>
 
-  <img [src]="item.cover.source" (click)="openItem(item)">
+  <img [src]="item.cover.source">
 
   <!-- <ion-card-content>
     <p></p>
   </ion-card-content> -->
-  <ion-list (click)="openItem(item)">
+  <ion-list>
     <ion-item>
       <ion-icon name="cash" item-start></ion-icon>
       Rodízio R$ 41,93 (30% Off)
@@ -43,8 +43,12 @@
       <ion-icon name="pin" item-start></ion-icon>
       {{item.location.street}}
     </ion-item>
+    <button ion-item (click)="openItem(item)" color="dark">
+      <ion-icon name="pricetag" item-start></ion-icon>
+      Resgatar cupom
+    </button>
   </ion-list>
-  <ion-row>
+ <!--  <ion-row>
     <ion-col>
       <button ion-button icon-left clear small>
         <ion-icon name="star"></ion-icon>
@@ -57,7 +61,7 @@
         <div>2 Compartilhar</div>
       </button>
     </ion-col>
-  </ion-row>
+  </ion-row> -->
 
 </ion-card>
 </ion-content>

@@ -51,8 +51,5 @@ export class ListMasterPage {
       item: item
     });
   }
-
-  share(){
-    window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/SushiBlog/');
-  }
+  
 }
