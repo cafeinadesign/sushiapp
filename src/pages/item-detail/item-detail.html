@@ -3,7 +3,7 @@
   <ion-navbar color="dark">
     <ion-title>{{ item.name }}</ion-title>
     <ion-buttons end>
-      <button ion-button icon-only>
+      <button ion-button icon-only (click)="share($event)">
         <ion-icon name="share"></ion-icon>
       </button>
     </ion-buttons>
@@ -16,25 +16,29 @@
     <h1 ion-text color="primary">Parabéns!</h1>
     <h2 ion-text color="secondary">Você gerou o cupom de desconto com sucesso!</h2>
   </div>
-  <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.cover.source + ')'">
-  </div>
+  <img [src]="item.cover.source">
+  <!-- <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.cover.source + ')'">
+  </div> -->
   <div class="item-detail" padding>
     <h2>{{item.name}}</h2>
     <p>{{item.about}}</p>
   </div>
   <ion-list>
     <ion-item large>
-      Rodízio R$ 41,93 (30% Off)
+      <ion-icon name="cash" item-start></ion-icon>
+      Rodízio <del ion-text>R$ 59,90</del> <strong>R$ 41,93</strong> (30% Off)
     </ion-item>
     <ion-item>
-      Código: <strong color="danger">PF6UM9</strong>
+      <ion-icon name="pricetag" item-start></ion-icon>
+      Código: <mark color="danger">PF6UM9</mark>
     </ion-item>
     <ion-item>
+      <ion-icon name="timer" item-start></ion-icon>
       Válido até 30/04/2018
     </ion-item>
-	<button ion-item>
-	  <ion-icon name="pin" icon-start></ion-icon>
-	  {{item.location.street}}
-	</button>
+    <button ion-item (click)="location(item.location.street)">
+      <ion-icon name="pin" item-start></ion-icon>
+      {{item.location.street}}
+    </button>
   </ion-list>
 </ion-content>

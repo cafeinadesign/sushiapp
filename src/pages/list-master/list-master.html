@@ -15,9 +15,9 @@
 <ion-content>
 
 
-<ion-card *ngFor="let item of currentItems" (click)="openItem(item)">
+<ion-card *ngFor="let item of currentItems">
 
-  <ion-item>
+  <ion-item (click)="openItem(item)">
     <ion-avatar item-start>
       <img [src]="item.picture.data.url">
     </ion-avatar>
@@ -25,12 +25,12 @@
     <p>{{item.category}}<span *ngIf="item.food_styles">, {{item.food_styles}}</span></p>
   </ion-item>
 
-  <img [src]="item.cover.source">
+  <img [src]="item.cover.source" (click)="openItem(item)">
 
   <!-- <ion-card-content>
     <p></p>
   </ion-card-content> -->
-  <ion-list>
+  <ion-list (click)="openItem(item)">
     <ion-item>
       <ion-icon name="cash" item-start></ion-icon>
       Rodízio R$ 41,93 (30% Off)
@@ -52,7 +52,7 @@
       </button>
     </ion-col>
     <ion-col center text-center>
-      <button ion-button icon-left clear small>
+      <button ion-button icon-left clear small (click)="share($event)">
         <ion-icon name="share"></ion-icon>
         <div>2 Compartilhar</div>
       </button>

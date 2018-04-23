@@ -15,4 +15,13 @@ export class ItemDetailPage {
     this.item = navParams.get('item') || items.defaultItem;
   }
 
+  share(){
+    window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A//www.facebook.com/SushiBlog/');
+  }
+
+  location(street){
+  	console.log(street);
+  	window.open('https://www.google.com/maps/place/'+street);
+  }
+
 }
