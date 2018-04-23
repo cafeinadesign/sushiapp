@@ -9,6 +9,7 @@ export class Items {
   defaultItem: any = {
     "username":"HakataRecife",
     "name":"Restaurante Hakata",
+    "about": "Fundado em 1997 o Restaurante Hakata oferece tradição e qualidade em culinária oriental.",
     "id":"1390984821133074",
     "category":"Restaurante japonês",
     "food_styles":[
@@ -48,6 +49,7 @@ export class Items {
   {
     "username":"HakataRecife",
     "name":"Restaurante Hakata",
+    "about": "Fundado em 1997 o Restaurante Hakata oferece tradição e qualidade em culinária oriental.",
     "id":"1390984821133074",
     "category":"Restaurante japonês",
     "food_styles":[
@@ -82,6 +84,7 @@ export class Items {
   {
     "username":"ThePokeBowlBr",
     "name":"The Poke Bowl",
+    "about": "Comida saudável, ingredientes frescos e de qualidade, ah e também SUPER rápido. Além do das assinaturas e executivos assinaturas pode montar seu poke!",
     "id":"1730661680581456",
     "category":"Restaurante de fast-food",
     "location":{
@@ -111,6 +114,7 @@ export class Items {
   {
     "username":"NipponSushi",
     "name":"Nippon Sushi",
+    "about": "Oferecemos o melhor da comida oriental, com um cardápio repleto de variedades. Temos rodízio e delivery: 3227-3030",
     "id":"504344082938929",
     "category":"Restaurante japonês",
     "food_styles":[
@@ -147,6 +151,7 @@ export class Items {
   {
     "username":"ZenComidaJaponesa",
     "name":"ZEN Comida Japonesa",
+    "about": "ZEN Comida Japonesa, onde a arte e o sabor se aliam à qualidade.",
     "id":"158852867527508",
     "category":"Restaurante japonês",
     "food_styles":[
@@ -180,6 +185,7 @@ export class Items {
   {
     "username":"genkioriental",
     "name":"Genki Sushi",
+    "about": "Quer ter a melhor experiência em culinária oriental, saborear o melhor sushi Pernambucano !  Genki tem !!!!",
     "id":"677590095681121",
     "category":"Restaurante japonês",
     "food_styles":[
@@ -218,6 +224,7 @@ export class Items {
   {
     "username":"unitemakeria",
     "name":"Uni Temakeria",
+    "about": "Especializada em Temakis e Sushis",
     "id":"220602374771955",
     "category":"Restaurante japonês",
     "location":{
@@ -245,39 +252,40 @@ export class Items {
       }
     }
   },
-  {
-    "username":"JoJooSushi",
-    "name":"Jojoo Creative Sushi",
-    "id":"241263989374749",
-    "category":"Restaurante japonês",
-    "food_styles":[
-      "Sushi Bar"
-    ],
-    "location":{
-      "city":"Recife",
-      "country":"Brazil",
-      "latitude":-8.0341,
-      "longitude":-34.9217299,
-      "state":"PE",
-      "street":"AVENIDA 17 DE AGOSTO 1649",
-      "zip":"52061-540"
-    },
-    "cover":{
-      "cover_id":"714644045370072",
-      "offset_x":0,
-      "offset_y":0,
-      "source":"https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/15965178_714644045370072_6823715231732973890_n.jpg?_nc_cat=0&oh=8a9126efff35e9fa346d44e476e63cda&oe=5B5823B4",
-      "id":"714644045370072"
-    },
-    "picture":{
-      "data":{
-        "height":50,
-        "is_silhouette":false,
-        "url":"https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/15941108_714643865370090_3457370096077364822_n.jpg?_nc_cat=0&oh=a7ef8fa8cfeb0cdcd78ed12c8b4b0e7a&oe=5B5E0EBF",
-        "width":50
-      }
+{
+  "username": "JoJooSushi",
+  "name": "Jojoo Creative Sushi",
+  "about": "O melhor da culinária oriental e fusion, com um toque de criatividade e sofisticação.",
+  "id": "241263989374749",
+  "category": "Restaurante japonês",
+  "food_styles": [
+    "Sushi Bar"
+  ],
+  "location": {
+    "city": "Recife",
+    "country": "Brazil",
+    "latitude": -8.0341,
+    "longitude": -34.9217299,
+    "state": "PE",
+    "street": "AVENIDA 17 DE AGOSTO 1649",
+    "zip": "52061-540"
+  },
+  "cover": {
+    "cover_id": "714644045370072",
+    "offset_x": 0,
+    "offset_y": 0,
+    "source": "https://scontent.xx.fbcdn.net/v/t1.0-9/s720x720/15965178_714644045370072_6823715231732973890_n.jpg?_nc_cat=0&oh=8a9126efff35e9fa346d44e476e63cda&oe=5B5823B4",
+    "id": "714644045370072"
+  },
+  "picture": {
+    "data": {
+      "height": 50,
+      "is_silhouette": false,
+      "url": "https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/15941108_714643865370090_3457370096077364822_n.jpg?_nc_cat=0&oh=a7ef8fa8cfeb0cdcd78ed12c8b4b0e7a&oe=5B5E0EBF",
+      "width": 50
     }
   }
+}
 ];
 
     for (let item of items) {
